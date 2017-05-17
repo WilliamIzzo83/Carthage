@@ -99,6 +99,7 @@
 		F162F3421D63D8A900809D7E /* VersionFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB3CFB1D63D05D00C9EB99 /* VersionFile.swift */; };
 		F603929919EA29F80050A6AF /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = F603929819EA29F80050A6AF /* Project.swift */; };
 		F689C33619EA14D4006D1EFA /* Checkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66685FB19E8F1EC00487A88 /* Checkout.swift */; };
+		F7B38C441ECC6B89003F2957 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B38C431ECC6B89003F2957 /* List.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -284,6 +285,7 @@
 		F1CB3CFB1D63D05D00C9EB99 /* VersionFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionFile.swift; sourceTree = "<group>"; };
 		F603929819EA29F80050A6AF /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		F66685FB19E8F1EC00487A88 /* Checkout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkout.swift; sourceTree = "<group>"; };
+		F7B38C431ECC6B89003F2957 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -399,6 +401,7 @@
 		D0D1211A19E87861005E4BAA /* carthage */ = {
 			isa = PBXGroup;
 			children = (
+				F7B38C431ECC6B89003F2957 /* List.swift */,
 				D00105051A8EA74E0059D0A0 /* Archive.swift */,
 				D095BA3B1A187D40007F15D6 /* Bootstrap.swift */,
 				D03B32BE19EA49D8007788BE /* Build.swift */,
@@ -853,6 +856,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67C870081A7A04E100F6647C /* Formatting.swift in Sources */,
+				F7B38C441ECC6B89003F2957 /* List.swift in Sources */,
 				D02DB8E01A4BC9B600097CDE /* Fetch.swift in Sources */,
 				5482DAF11A3849D700197FB8 /* CopyFrameworks.swift in Sources */,
 				5F6BDC021DB2F1C8008C2EC5 /* BuildVersion.swift in Sources */,
